@@ -1,10 +1,10 @@
-# Password-Generator
+# Password Generator
 This is an application that supports the encoding and decoding of three popular ciphers:
 - [Ceasar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 - [Vernam Cipher](https://en.wikipedia.org/wiki/Gilbert_Vernam)
 
-This was made for a small college project - its very simple. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [Williams-Theme](https://github.com/unavailable-name/Williams-Theme "Williams-Theme"). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
+This was made for a small college project - its very simple and written in Python. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [Williams-Theme](https://github.com/unavailable-name/Williams-Theme "Williams-Theme"). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
 
 
 # Program Screenshot:
