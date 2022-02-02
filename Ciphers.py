@@ -8,8 +8,6 @@ This application has a graphical user interface - it does this with the aid of t
 Function names with _ is just a naming convention that signifies that these are internal functions only.
 
 This application uses the my "Williams" ttk theme to make Tkinter look nice and modern.
-
-~Tyler Williams
 """
 
 import string;
@@ -122,7 +120,7 @@ class vigenere():
         except:
             mb.showerror(title="Error", message="Error Encountered!");
 
-class vernan():
+class vernam():
     def encode(self, secret, plaintext, keepCase=True, hasWhitespaces=True) -> str:
         try:
             plaintext = re.sub(r"[^a-zA-Z]", "", str(plaintext).strip())
@@ -189,7 +187,7 @@ class cipherWindow():
             _writeToDisplay(self.ciphers[self.currentSelectedCipher.get()](self.secret.get(), self.plaintext.get(), self.setting1Bool.get(), self.setting2Bool.get()));
 
         def _updateSettingsLabels(new) -> None:
-            if new == "Encode Vernan" or new == "Decode Vernan":
+            if new == "Encode Vernam" or new == "Decode Vernam":
                 self.setting2["text"] = "Seperate Binary";
             else:
                 self.setting2["text"] = "Keep Unknown Characters";
@@ -201,10 +199,10 @@ class cipherWindow():
         self.ciphers = {
             "Encode Ceasar": ceasar().encode,
             "Encode Vigenere": vigenere().encode,
-            "Encode Vernan": vernan().encode,
+            "Encode Vernam": vernam().encode,
             "Decode Ceasar": ceasar().decode,
             "Decode Vigenere": vigenere().decode,
-            "Decode Vernan": vernan().decode,
+            "Decode Vernam": vernam().decode,
         }
 
         # Window
