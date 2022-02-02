@@ -26,7 +26,7 @@ This was made for a small college project - its very simple. For the UI it uses 
 
 ## Encoding/Decoding
 To encode with a particular cipher do the following steps:
-- Select a Cipher via the Entry that says "Select Cipher" - Make sure you choose an option that says encode if you want to encode or decode if you want to decode.
-- Enter the text you wish to Encode/Decode into the input that says "Enter Plaintext/Ciphertext".
-- Enter a key into the input that says "Enter Key" - Becareful here, some ciphers only allow certain types of keys. For example, a Ceasar Cipher will only work with an integer.
+- Select a Cipher via the Entry that says `Select Cipher` - Make sure you choose an option that says encode if you want to encode or decode if you want to decode.
+- Enter the text you wish to encode/decode into the input that says `Enter Plaintext/Ciphertext`.
+- Enter a key into the input that says `Enter Key` - Becareful here, some ciphers only allow certain types of keys. For example, a Ceasar Cipher will only work with an integer.
 - Click Compute and the output will be displayed in the output window.
