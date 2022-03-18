@@ -1,4 +1,4 @@
-# Secret Ciphers
+# Cipher Generator
 This is an application that supports the encoding and decoding of three popular ciphers:
 - [Ceasar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
