@@ -4,7 +4,7 @@ This is an application that supports the encoding and decoding of three popular 
 - [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 - [Vernam Cipher](https://en.wikipedia.org/wiki/Gilbert_Vernam)
 
-This is a very simple application and it is written in Python. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [Williams-Theme](https://github.com/tywil04/tkinter-theme "Tkinter-Theme"). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
+This is a very simple application and it is written in Python. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [Tkinter-Theme](https://github.com/tywil04/tkinter-theme "Tkinter-Theme"). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
 
 
 # Program Screenshot:
