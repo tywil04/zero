@@ -14,6 +14,8 @@ This is a application and it is written in Python. All the cipher implementation
 
 
 # Usage:
+Run `cipher.py`
+
 ## Program Settings:
 #### Ceasar Cipher and Vigenere Cipher Options:
 - Keep Character Case: Keeps the character case in the output. When the setting is on: `Test -> Docd` and when the setting is off: `Test -> docd`.
