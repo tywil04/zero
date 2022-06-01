@@ -14,6 +14,9 @@ This is a application and it is written in Python. All the cipher implementation
 
 
 # Usage
+
+## Program Settings:
+
 ### Ceasar Cipher and Vigenere Cipher Options:
 - Keep Character Case: Keeps the character case in the output. When the setting is on: `Test -> Docd` and when the setting is off: `Test -> docd`.
 - Keep Unknown Characters: Any Characters that don't work in the cipher (most puncutation, etc) gets put in the ciphertext at the same position. For example, when the setting is on: `test! -> docd!` and when setting is off: `test! -> docd`.
