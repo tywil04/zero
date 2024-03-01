@@ -6,8 +6,6 @@ All packages used in this script are built-in packages.
 This application has a graphical user interface - it does this with the aid of the TK UI toolkit.
 
 Function names with _ is just a naming convention that signifies that these are internal functions only.
-
-This application uses the my "Williams" ttk theme to make Tkinter look nice and modern.
 """
 
 import string;
@@ -16,6 +14,7 @@ import tkinter as tk;
 from tkinter import ttk;
 from tkinter import messagebox as mb;
 import os;
+import pywinstyles
 
 # Global Settings
 theme = "dark";
@@ -207,11 +206,16 @@ class cipherWindow():
 
         # Window
         self.window = tk.Tk(); # Create window
-        self.window.call("source", cwd + "/Williams Theme/Williams.tcl");
-        ttk.Style().theme_use('Williams');
-        self.window.title("Cipher Suite");
+        self.window.call("source", cwd + "/minimal-tkinter/minimal-tkinter.tcl");
+        ttk.Style().theme_use('minimal-tkinter');
+        self.window.title("Zero");
         self.window.geometry("420x225");
         self.window.resizable(width=False, height=False);
+	
+        if os.name == "nt":
+                pywinstyles.apply_style(self.window, "dark")
+
+        self.window.iconbitmap(default="icon.ico")
 
         self.currentSelectedCipher = tk.StringVar(self.window);
         self.cipherSelector = ttk.OptionMenu(self.window , self.currentSelectedCipher, "Select Cipher", *list(self.ciphers.keys()), command=_updateSettingsLabels);

@@ -1,3 +1,6 @@
-[submodule "Tkinter Theme"]
-	path = Tkinter Theme
-	url = https://github.com/tywil04/tkinter-theme
+[submodule "minimal-tkinter"]
+	path = minimal-tkinter
+	url = https://github.com/tywil04/minimal-tkinter
+[submodule "minila-tkinter"]
+	path = minila-tkinter
+	url = https://github.com/tywil04/minimal-tkinter

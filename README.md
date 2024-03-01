@@ -1,16 +1,14 @@
-# Cipher Generator
+# Zero
 This is an application that supports the encoding and decoding of three popular ciphers:
 - [Ceasar Cipher](https://en.wikipedia.org/wiki/Caesar_cipher)
 - [Vigenere Cipher](https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher)
 - [Vernam Cipher](https://en.wikipedia.org/wiki/Gilbert_Vernam)
 
-This is a application and it is written in Python. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [Tkinter-Theme](https://github.com/tywil04/tkinter-theme "Tkinter-Theme"). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
+This is a application and it is written in Python. All the cipher implementations are my own. For the UI it uses Tkinter with my custom theme [minimal-tkinter](https://github.com/tywil04/minimal-tkinter). All the code is in one file, however it wouldn't be difficult to refactor it and have seperate files for each cipher.
 
 
-# Program Screenshots:
-!["Main UI"](Screenshot1.png "Main UI")
-
-!["Main UI"](Screenshot2.png "All Available Ciphers")
+# Screenshots:
+!["Zero Application"](/zero.png)
 
 
 # Usage:
